@@ -13,3 +13,24 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
 }
+
+.buttons{
+    height: 30px;
+    width: 100px;
+    background-color: lightblue;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    border-radius: 5px;
+    border: none;
+    /* margin-top: 10px; */
+}
+
+.buttons:hover{
+    cursor: pointer;
+    /* transform: scale(1.05); */
+}
+
+.cards .card:hover{
+    transform: scale(1.05);
+}
